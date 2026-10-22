@@ -1,0 +1,30 @@
+{
+  "name": "CDA Public Service",
+  "description": "Receive-only analog fire, emergency management, Post Falls police and public works channels around Coeur d'Alene. TX is forbidden and no TX frequency is stored. Sheriff and most police traffic is P25 or NXDN digital and is not included.",
+  "sources": {
+    "kootenai": "https://www.radioreference.com/db/browse/ctid/574 (checked 2026-10-05; conventional FM/FMN entries only, P25 and NXDN entries left out; not verified on air)"
+  },
+  "zone": "CDA Public Svc",
+  "channels": [
+    {"name": "Fire Alpha", "rx_mhz": 154.115, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 12.5, "rx_tone": "179.9"},
+    {"name": "Timbrlk Disp", "rx_mhz": 154.370, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 12.5},
+    {"name": "Timbrlk Ops", "rx_mhz": 154.280, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 12.5},
+    {"name": "Worley Fire", "rx_mhz": 154.355, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 12.5, "rx_tone": "162.2"},
+    {"name": "Worley FTac", "rx_mhz": 154.130, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 12.5},
+    {"name": "Hauser Fire", "rx_mhz": 156.090, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 12.5, "rx_tone": "167.9"},
+    {"name": "KC EMA", "rx_mhz": 453.325, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 12.5, "rx_tone": "71.9"},
+    {"name": "Airport Auth", "rx_mhz": 453.500, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 12.5, "rx_tone": "203.5"},
+    {"name": "PFPD Ch1", "rx_mhz": 460.475, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 12.5, "rx_tone": "77.0"},
+    {"name": "PFPD Ch2", "rx_mhz": 460.400, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 12.5, "rx_tone": "162.2"},
+    {"name": "PFPD Car", "rx_mhz": 465.175, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 12.5},
+    {"name": "PFPD Car2", "rx_mhz": 460.4125, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 12.5},
+    {"name": "CDA Streets", "rx_mhz": 155.145, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 12.5, "rx_tone": "179.9"},
+    {"name": "CDA Water", "rx_mhz": 155.085, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 12.5},
+    {"name": "Hayden DPW", "rx_mhz": 453.425, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 12.5},
+    {"name": "ESHD Roads", "rx_mhz": 453.400, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 12.5, "rx_tone": "103.5"},
+    {"name": "PF Hwy Dist", "rx_mhz": 453.300, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 12.5},
+    {"name": "PF Streets", "rx_mhz": 150.995, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 12.5},
+    {"name": "Worley Roads", "rx_mhz": 453.250, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 12.5, "rx_tone": "103.5"},
+    {"name": "Hauser Roads", "rx_mhz": 156.090, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 12.5, "rx_tone": "173.8"}
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "CDA Airband",
+  "description": "Receive-only AM aviation channels for listening around Coeur d'Alene: the local airports, Spokane approach and the airports it serves, Seattle Center, and the national guard and air-to-air frequencies. RT-950 PRO only (the DM-32UV cannot receive AM). No TX frequency is stored.",
+  "sources": {
+    "airports": "FAA NASR data as published on airnav.com, effective 2026-10-01: KCOE, KGEG, KSFF, KSKA, KSZT, 65S (https://www.airnav.com/airport/<id>)",
+    "spokane_approach": "KCOE remark: clearances and approach on 132.1; KGEG/KSFF: Spokane approach 123.75 (205-025 deg from GEG) and 133.35 (026-204 deg)",
+    "seattle_center": "KSZT and 65S: approach/departure control by Seattle ARTCC (ZSE) on 123.95",
+    "national": "47 CFR 87.187: 121.5 emergency, 122.75 private fixed-wing air-to-air, 123.025 helicopter air-to-air"
+  },
+  "channels": [
+    {"name": "COE CTAF", "rx_mhz": 122.8, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0, "rx_am": true},
+    {"name": "COE AWOS", "rx_mhz": 135.075, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0, "rx_am": true},
+    {"name": "SPK App COE", "rx_mhz": 132.1, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0, "rx_am": true},
+    {"name": "SPK App E", "rx_mhz": 133.35, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0, "rx_am": true},
+    {"name": "SPK App N", "rx_mhz": 123.75, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0, "rx_am": true},
+    {"name": "GEG ATIS", "rx_mhz": 124.325, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0, "rx_am": true},
+    {"name": "GEG Tower", "rx_mhz": 118.3, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0, "rx_am": true},
+    {"name": "GEG Ground", "rx_mhz": 121.9, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0, "rx_am": true},
+    {"name": "GEG Clnc Del", "rx_mhz": 127.55, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0, "rx_am": true},
+    {"name": "SFF ATIS", "rx_mhz": 120.55, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0, "rx_am": true},
+    {"name": "SFF Tower", "rx_mhz": 132.5, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0, "rx_am": true},
+    {"name": "SFF Ground", "rx_mhz": 121.7, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0, "rx_am": true},
+    {"name": "SKA Tower", "rx_mhz": 120.35, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0, "rx_am": true},
+    {"name": "SKA Ground", "rx_mhz": 123.6, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0, "rx_am": true},
+    {"name": "ZSE Lo 08", "rx_mhz": 123.95, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0, "rx_am": true},
+    {"name": "SZT CTAF", "rx_mhz": 122.7, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0, "rx_am": true},
+    {"name": "BNF CTAF", "rx_mhz": 123.0, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0, "rx_am": true},
+    {"name": "Guard 121.5", "rx_mhz": 121.5, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0, "rx_am": true},
+    {"name": "Air-to-Air", "rx_mhz": 122.75, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0, "rx_am": true},
+    {"name": "Heli A2A", "rx_mhz": 123.025, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0, "rx_am": true}
+  ]
+}

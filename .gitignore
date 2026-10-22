@@ -1,0 +1,13 @@
+# Radio backups, logs and diagnostics hold personal data (DMR IDs, contacts,
+# passwords in clear text). Keep them local.
+data/
+
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+
+web/node_modules/

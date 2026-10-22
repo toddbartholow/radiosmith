@@ -1,0 +1,15 @@
+{
+  "name": "CDA Listen",
+  "description": "Receive-only listening channels for Coeur d'Alene. TX is forbidden and no TX frequency is stored.",
+  "sources": {
+    "weather": "https://www.weather.gov/otx/NWR_Frequencies_Coverage (Spokane WXL-86, 162.400; checked 2026-10-02; reception in Coeur d'Alene not guaranteed)",
+    "repeaters": "https://k7id.org/repeaters/ (checked 2026-10-02; normally linked; 146.780 and 146.980 use PL 127.3, 443.975 uses PL 136.5 for access)"
+  },
+  "zone": "CDA Listen",
+  "channels": [
+    {"name": "Spokane WX", "rx_mhz": 162.400, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0},
+    {"name": "Mica Peak", "rx_mhz": 146.980, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0},
+    {"name": "Canfield", "rx_mhz": 443.975, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0},
+    {"name": "Blacktail", "rx_mhz": 146.780, "tx_mhz": null, "forbid_tx": true, "power": "low", "bandwidth_khz": 25.0}
+  ]
+}

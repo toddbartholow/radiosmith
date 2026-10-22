@@ -1,0 +1,4 @@
+# Store text with LF line endings and check it out with LF on every platform.
+* text=auto eol=lf
+
+*.bin binary
